@@ -14,6 +14,7 @@
 		C4C588E21E7A2802002EEA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C588E11E7A2802002EEA82 /* Assets.xcassets */; };
 		C4C588E51E7A2804002EEA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C588E31E7A2804002EEA82 /* LaunchScreen.storyboard */; };
 		C4C588F21E7A29EE002EEA82 /* NSObject+PYKeyValues.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C588F11E7A29EE002EEA82 /* NSObject+PYKeyValues.m */; };
+		C4C588F61E7A3660002EEA82 /* UIButton+PYClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C588F51E7A3660002EEA82 /* UIButton+PYClickBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C4C588E61E7A2818002EEA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C588F01E7A29EE002EEA82 /* NSObject+PYKeyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYKeyValues.h"; sourceTree = "<group>"; };
 		C4C588F11E7A29EE002EEA82 /* NSObject+PYKeyValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYKeyValues.m"; sourceTree = "<group>"; };
+		C4C588F41E7A3660002EEA82 /* UIButton+PYClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PYClickBlock.h"; sourceTree = "<group>"; };
+		C4C588F51E7A3660002EEA82 /* UIButton+PYClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PYClickBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 				C4C588D91E7A27FE002EEA82 /* AppDelegate.m */,
 				C4C588DB1E7A27FE002EEA82 /* ViewController.h */,
 				C4C588DC1E7A27FF002EEA82 /* ViewController.m */,
+				C4C588F31E7A3620002EEA82 /* 给按钮添加点击属性 */,
 				C4C588EC1E7A289E002EEA82 /* 字典与模型互转 */,
 				C4C588DE1E7A2800002EEA82 /* Main.storyboard */,
 				C4C588E11E7A2802002EEA82 /* Assets.xcassets */,
@@ -90,6 +94,15 @@
 				C4C588F11E7A29EE002EEA82 /* NSObject+PYKeyValues.m */,
 			);
 			path = "字典与模型互转";
+			sourceTree = "<group>";
+		};
+		C4C588F31E7A3620002EEA82 /* 给按钮添加点击属性 */ = {
+			isa = PBXGroup;
+			children = (
+				C4C588F41E7A3660002EEA82 /* UIButton+PYClickBlock.h */,
+				C4C588F51E7A3660002EEA82 /* UIButton+PYClickBlock.m */,
+			);
+			path = "给按钮添加点击属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C588F61E7A3660002EEA82 /* UIButton+PYClickBlock.m in Sources */,
 				C4C588DD1E7A27FF002EEA82 /* ViewController.m in Sources */,
 				C4C588DA1E7A27FE002EEA82 /* AppDelegate.m in Sources */,
 				C4C588F21E7A29EE002EEA82 /* NSObject+PYKeyValues.m in Sources */,
